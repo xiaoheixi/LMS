@@ -1,0 +1,1 @@
+<?php /**PATH C:\Users\adria\Desktop\LWS\resources\views/frontend/auth/registerTeacher.blade.php ENDPATH**/ ?>

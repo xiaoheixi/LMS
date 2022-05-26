@@ -1,0 +1,150 @@
+=============================================
+MAY OFFICE DAYS REIMBURSEMENT:
+2nd, 4th, 9th, 10th
+=============================================
+
+Base Site Account Logins:
+admin@mmv.com
+margie@mmv.com
+student@mmv.com
+user@mmv.com
+
+password: margie12345
+
+FINAL TOUCHUPS:
+- Remove logs from debug
+
+--Stripe--
+API Key: pk_test_51KlnVQBBJBOZ2nqUShh9U3n13VfaehcYWJT8xkMFZ4poqlZ3VugLUTRuXM74bZa8YY02O1rMP2SvVn3D1WIqebAY00cSQcLTDG
+API Secret: sk_test_51KlnVQBBJBOZ2nqUSm32JoBXxOeUtlfNVMn0tJEoFPcP5qLEzxRbpshNvTABs8zXx30PvShfPyoXlcS28TaUGgd200rjWoZpWQ
+Card: 4242424242424242
+
+--PayPal--
+Client ID: AcH_fWyKFVQZ2msF-ejrVAj-YKDLUrmuygv6XOna-48g4cQgmChNFhEuKCTBOGca6_ZdjLOeSHfWdRlG
+Secret: EKMPbAt9abt1nCJVa8F05_K9KJ-mhi2oiT1lRISvhm8fnPmZYNlhdkzEjLMim5xYLfnWSnhedw-V2Wyw
+email: sb-z43vvs3142849@personal.example.com
+pass: a{alQ.X4
+
+--Zoom--
+API Key: ESGa9yCfQBGcyydNFmeN0w
+API Secret: 3oflCKeVgPa8aWOennHUhxG2wlyry3BL2iep
+
+Meeting Agenda 9/3/22:
+- Show progress and receive feedback on Homepage/Admin Layouts
+- Getting required information to be placed on pages
+
+Meeting Agenda 16/3/22:
+- Ask about what needs to be displayed on the admin dashboard
+
+
+Testing Email Inbox Details:
+    user: margiemagicverb@gmail.com
+    pass: margie12345
+
+Stripe Details:
+    user: margiemagicverb@gmail.com
+    pass: margiesmagicverbs12345
+
+---------------------------------------------------------------------------------------------------------------------------
+
+TODOS:
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+ADRIAN NOTES
+- Lesson "short description" is displayed to the user even when they have not purchased the course. This should be a description of the lesson that
+everyone can see.
+- Lesson "long description" is hidden until you buy the course, and it should be the course content.
+- Lessons should be created with a title starting "Lesson (number)" as the store shows each lesson in alphanumerical order.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Lines 322 for book a slot button in C:\Users\adria\Desktop\LWS\resources\views\frontend\courses\lesson.blade.php
+
+Lines 98 - 115 for Live Lessons options in admin panel C:\Users\adria\Desktop\LWS\resources\views\backend\includes\sidebar.blade.php
+
+
+
+
+
+
+FRONTEND!
+- frontend > courses > index.blade.php (lines 136, 147)
+
+- Lines 487-503 in C:\Users\adria\Desktop\LWS\resources\views\frontend\courses\course.blade.php for buy/add to cart buttons
+
+
+start by having a teacher so we are going to create a margie account. then we'll set up permissions then go from scratch create a user validate
+ their account through email we are going to buy actually no no no before that we are going to run though the website
+and how it looks before signing in and make sure all that works and then after we sign in how the website looks uh we going to attempt
+ to purchase a live lesson which was already created by margie uh then we going to open the live lesson and see if we can actually
+get it to work uh so thats it i think thats all we have to test oh and at the end we might test the admin functionality adding and removing
+ account tell me when you got it all
+
+
+create margie account
+set up permissions
+create user
+validate account
+check out how the website looks unsigned in
+live lesson
+adding and removing accounts
+remove all other payment methods
+link social media
+
+
+
+
+
+NOTES
+
+- Text is to be added to the backdrop image on the carousel.
+- Latest blogs is to be replaced with popular blogs which are randomly selected.
+- Teachers section is to be changed with Margie and the all teachers button is to be removed.
+- Social media at the bottom should be made more prominent.
+- Work on store functionality.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hello team,
+We have been trying to integrate the template/theme you have sent us for the Spanish Learning Website but after integration the login functionality seemed to have been broken.
+
+We've tried many things to fix this problem. We've tried the following things.
+
+Using this in auth.php.
+'providers' => [
+'admins' => [ 'driver' => 'eloquent', 'model' => App\Models\Admin::class, ],
+
+Using SESSION_DRIVER=redis in .env.
+
+Regards,
+Justin and Adrian
+
+START FREE TRIAL BUTTON LEADS TO AN INFO PAGE OF WHAT THE FREE TRIAL IS WHICH ALSO HAS A BUTTON "START FREE TRIAL".
+
+Minimum: 10 DAYS
+Maximum: 20 Days
+
+###########################################################################################################################
+EXTRA:
+Fix Laravel Login and Register Page
+Add First Name and Last Name to Register Page
+Work on Homepage redirect with roles
